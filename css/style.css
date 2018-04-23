@@ -1,0 +1,321 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.header{
+	background-image: url("https://uploads-ssl.webflow.com/5aa6b3f8164b9e0001910ada/5aa802cf9f24844d96710e88_background-masthead-dappdevs.png");
+	padding: 20px;
+	padding-bottom: 170px;
+}
+.nav{
+	display: block;
+	margin:auto 15%;
+
+}
+
+#logo{
+	width: 159px;
+	float: left;
+}
+#logo:hover{
+	cursor: pointer;
+}
+ul{
+	list-style-type: none;
+	float: right;
+	
+}
+li{
+	
+	display: block;
+	float: left;
+	color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+li> a:hover{
+	color: #ff730f;
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+	color: #FCFBFD;
+}
+
+.slack{
+	background-color: #FCFBFD;
+	border-radius: 5px;
+	padding: 8px 18px;
+	border:none;
+}
+.animation{
+	position: relative;
+  	top: 0;
+  	transition: top ease 0.5s;
+}
+.animation:hover{
+	top:-8px;
+}
+.icon{
+	display: none;
+}
+
+.text {
+	width: 70%;
+	margin: auto;
+	margin-top: 180px;
+	text-align: center;
+	color: #FCFBFD;
+}
+
+h1{
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 60px;
+}
+
+.para{
+	margin-top: 30px;
+}
+
+#learn{
+	min-width: 150px;
+    border-radius: 5px;
+    background-color: #ff730f;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    color: #FCFBFD;
+    letter-spacing: 1px;
+    border:none;
+    padding: 10px 10px;
+    margin-top: 60px;
+}
+
+#Join{
+	min-width: 150px;
+    border-radius: 5px;
+    background-color: #FCFBFD;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 1px;
+    border:none;
+    padding: 10px 10px;
+    margin-top: 60px;
+}
+#Join > a{
+	color: black;
+}
+.blockchain{
+	display: block;
+	padding: 80px 150px;
+	padding-right: 150px;
+}
+.blockchain::after{
+	content: "";
+  	clear: both;
+  	display: table;
+}
+.title{
+	width: 50%;
+	text-align: center;
+	float: left;
+}
+.mainpara{
+	width: 50%;
+	float: right;
+}
+.community{
+	background-color: #591289;
+	color: hsla(0, 0%, 100%, .90);
+	text-align: center;
+	padding: 80px 200px;
+
+}
+.slack_community{
+	width: 70%;
+	margin: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 80px 160px;
+	margin-top: -40px;
+	border-radius: 5px;
+	background-color: #FCFBFD;
+	text-align: center;
+
+}
+
+.sub{
+	margin-top: 30px;
+	border:3px solid #C3C8D7;
+	background-color: #FCFBFD;
+	padding: 7px 15px;
+	border-radius: 5px;
+}
+
+#contact{
+	width: 70%;
+	margin: auto;
+	text-align: center;
+	padding: 80px;
+}
+.row{
+	display: block;
+	margin-top: 45px;
+}
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+
+}
+.col1{
+	width: 49%;
+	float: left;
+}
+.col2{
+	width: 49%;
+	float: right;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #FCFBFD;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    resize: none;
+    background-color: #FCFBFD;
+    margin-top: 10px;
+}
+input[type=submit]{
+    min-width: 150px;
+    border-radius: 5px;
+    background-color: #ff730f;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    color: #FCFBFD;
+    letter-spacing: 1px;
+    border:none;
+    padding: 10px 10px;
+    margin-top: 60px;
+}
+
+.events{
+	background-color: #FCFBFD;
+	text-align: center;
+	padding: 80px;
+}
+
+.events_details{
+	width: 28%;
+	margin: auto;
+	margin-top: 50px;
+	background-color: white;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 15px;
+	text-align: left;
+}
+.event_row1{
+	border-bottom: 1px solid #C3C8D7;
+	padding-bottom: 20px;
+}
+.event_row1 > a{
+	color: blue;
+	text-decoration: underline;
+}
+.orange > a{
+	color: #ff730f;
+}
+.footer{
+	padding: 80px;
+	background-image: url("https://uploads-ssl.webflow.com/5aa6b3f8164b9e0001910ada/5aa802cf9f24844d96710e88_background-masthead-dappdevs.png");
+}
+.footer_icon{
+	float: right;
+}
+.footer_icon > a{
+	margin: 0 10px;
+}
+.col3{
+	width:100%;
+	display: flex;
+}
+.event_para{
+	margin-left: 20px;
+}
+.col4{
+	width:100%;
+	margin-top: 15px;
+	display: flex;
+}
+
+.orange{
+	color: #ff730f;
+	margin-top: 20px;
+}
+
+
+@media screen and (max-width: 991px) 
+{ 
+	#list1 { width: 100%;}
+	.icon{
+		display: block;
+		float: right;
+	}
+	
+	.nav{
+		margin:auto 3%;
+	}
+	 li a {
+	 	display: none;
+	 }
+	 li > .slack{
+	 	display: none
+	 }
+	 .text{
+	 	width: 90%;
+	 }
+	 h1{
+	 	font-size: 40px;
+	 }
+	 .title{
+	 	width: 100%;
+	 }
+	 .title > h1{
+	 	font-size: 28px;
+	 }
+	 .mainpara{
+	 	width: 100%; 
+	 	margin-top: 20px; 
+	 	text-align: center;
+	 }
+	 .blockchain ,.community,.slack_community, #contact ,.events{
+	 	padding: 80px 20px;
+	 }
+	 .slack_community, #contact, .Events_details{
+	  width: 90%;
+	   }
+	 .col1, .col2{
+	 	width: 100%;
+	 }
+	 .col3, .col4{
+	 	width: 50%; float: left
+	 }
+	 
+}
