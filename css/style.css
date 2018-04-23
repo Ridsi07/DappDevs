@@ -82,7 +82,7 @@ h1{
 	margin-top: 30px;
 }
 
-#learn{
+.orange_button{
 	min-width: 150px;
     border-radius: 5px;
     background-color: #ff730f;
@@ -97,7 +97,7 @@ h1{
     margin-top: 60px;
 }
 
-#Join{
+.white_button{
 	min-width: 150px;
     border-radius: 5px;
     background-color: #FCFBFD;
@@ -109,8 +109,8 @@ h1{
     border:none;
     padding: 10px 10px;
     margin-top: 60px;
-}
-#Join > a{
+    }
+.white_button > a{
 	color: black;
 }
 .blockchain{
@@ -201,21 +201,6 @@ textarea {
     background-color: #FCFBFD;
     margin-top: 10px;
 }
-input[type=submit]{
-    min-width: 150px;
-    border-radius: 5px;
-    background-color: #ff730f;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 13px;
-    font-weight: 400;
-    text-align: center;
-    color: #FCFBFD;
-    letter-spacing: 1px;
-    border:none;
-    padding: 10px 10px;
-    margin-top: 60px;
-}
-
 .events{
 	background-color: #FCFBFD;
 	text-align: center;
@@ -308,7 +293,7 @@ input[type=submit]{
 	 .blockchain ,.community,.slack_community, #contact ,.events{
 	 	padding: 80px 20px;
 	 }
-	 .slack_community, #contact, .Events_details{
+	 .slack_community, #contact, .events_details{
 	  width: 90%;
 	   }
 	 .col1, .col2{
